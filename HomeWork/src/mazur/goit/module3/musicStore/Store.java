@@ -9,7 +9,7 @@ import java.util.Map;
  */
 public class Store {
     List<Instrument> instruments;
-    Map<String, Integer> inst = new HashMap<String, Integer>();
+    // Map<String, Integer> inst = new HashMap<String, Integer>();
     // inst.put("piano", 2);
     // inst.put("guitar", 16);
     // inst.put("trumpet", 7);
@@ -22,13 +22,13 @@ public class Store {
         this.instruments = instruments;
     }
 
-    public List<Instrument> prepareInstruments(Map<String, Integer> order){
-        final Map<String, Integer> mapiS = new HashMap<String, Integer>();
+    /*public List<Instrument> prepareInstruments(Map<String, Integer> order){
+       Map<String, Integer> mapiS = new HashMap<String, Integer>();
 
 
 
         return (List<Instrument>) mapiS;
     }
-
+*/
 
 }

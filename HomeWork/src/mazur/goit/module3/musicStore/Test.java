@@ -12,11 +12,18 @@ import java.util.Map;
  */
 public class Test {
     public static void main(String[] args) throws IOException {
+        Instrument guitar1 = new Instrument();
+        Guitar guitar2 = new Guitar();
+        guitar1.example();
+        guitar2.example();
+/*
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         Map<String, Integer> instKup = new HashMap<String, Integer>();
         System.out.println("Searc: \n pleas writ Instrument name");
         String instrum = reader.readLine();
+
         System.out.println("pleas write instrument val");
+
         Integer val = Integer.parseInt(reader.readLine());
         instKup.put(instrum, val);
 
@@ -27,19 +34,18 @@ public class Test {
         inst.put("piano", 2);
         inst.put("guitar", 16);
         inst.put("trumpet", 7);
-        //store.prepareInstruments(мап колекція);
+        //store.prepareInstruments(Map<>);
         Iterator<Map.Entry<String, Integer>> iterator = inst.entrySet().iterator();
 
         while (iterator.hasNext())
         {
-            //получение «пары» элементов
             Map.Entry<String, Integer> pair = iterator.next();
-            String key = pair.getKey();            //ключ
-            Integer value = pair.getValue();        //значение
+            String key = pair.getKey();
+            Integer value = pair.getValue();
             System.out.println(key + ":" + value);
         }
 
-
+*/
 
 
 

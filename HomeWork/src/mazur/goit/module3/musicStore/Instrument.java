@@ -31,4 +31,8 @@ public class Instrument {
     public void setCountry(String country) {
         this.country = country;
     }
+
+    public void example(){
+        System.out.println("Instrument example");
+    }
 }
